@@ -107,4 +107,5 @@ jobs:
             simple_live_app/build/ios/iphoneos/ios_no_sign.ipa
 
       #完成
-      - run: echo "🍏 This job's status is ${{ job.status }}."
+      - run: echo "🍏 Linux job's status is ${{ job.status }}."
+
